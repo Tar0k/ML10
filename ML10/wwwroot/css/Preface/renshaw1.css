@@ -1,0 +1,140 @@
+/* Style Sheet 1 for Ballbar User Guide */
+
+BODY {
+    background-image: url("spiral_small.gif");
+    background-repeat: repeat-y;
+    margin-left: 40px;
+}
+
+td.table1-column-img, td.table2-column-img {
+    width: 25%;
+}
+
+td.table1-column-description, td.table2-column-description {
+    width: 50%;
+}
+
+td.table1-column-definition, td.table2-column-definition {
+    width: 25%;
+}
+
+table {
+    border: 0;
+    padding: 0;
+    border-spacing: 0;
+    width: 100%;
+}
+
+H1 {
+    font-family: "Tahoma", "Arial", "Helvetica", serif;
+    font-size: 24.0pt;
+    color: red;
+}
+
+H2 {
+    font-family: "Tahoma", "Arial", "Helvetica", serif;
+    font-weight: bold;
+    font-size: 18.0pt;
+    color: red;
+}
+
+H3 {
+    font-family: "Tahoma", "Arial", "Helvetica", serif;
+    font-weight: bold;
+    font-size: 14.0pt;
+    color: red;
+}
+
+H4 {
+    font-family: "Tahoma", "Arial", "Helvetica", serif;
+    font-weight: bold;
+    font-size: 12.0pt;
+    color: red;
+}
+
+H5 {
+    font-family: "Tahoma", "Arial", "Helvetica", serif;
+    font-weight: bold;
+    font-size: 12.0pt;
+    color: black;
+}
+
+H6 {
+    font-family: Tahoma, "Arial", "Helvetica", serif;
+    font-weight: bold;
+    font-size: 11.0pt;
+    color: black;
+}
+
+P {
+    font-family: "Arial", "Helvetica", serif;
+    font-size: 10.0pt;
+    color: black;
+}
+
+PRE {
+    font-family: "Courier New", "Courier", serif;
+    font-size: 10.0pt;
+    color: black;
+}
+
+XMP {
+    font-family: "Courier New", "Courier", serif;
+    font-size: 10.0pt;
+    color: black;
+}
+
+ul {
+    font-family: "Arial", "Helvetica", serif;
+    font-size: 10.0pt;
+    color: black;
+}
+
+ol {
+    font-family: "Arial", "Helvetica", serif;
+    font-size: 10.0pt;
+    color: black;
+}
+
+li {
+    font-family: "Arial", "Helvetica", serif;
+    font-size: 10.0pt;
+    color: black;
+}
+
+dt {
+    font-family: "Arial", "Helvetica", serif;
+    font-size: 11.0pt;
+    color: black;
+}
+
+dd {
+    font-family: "Arial", "Helvetica", serif;
+    font-size: 10.0pt;
+    color: black;
+}
+
+cls.TD {
+    font-family: "Arial", "Helvetica", serif;
+    font-size: 10.0pt;
+    color: black;
+}
+
+ADDRESS {
+    font-family: "Arial", "Helvetica", serif;
+    font-style: italic;
+    font-size: 10.0pt;
+    color: black;
+}
+
+P.version {
+    font-family: "Courier New", "Courier", serif;
+    font-size: 10.0pt;
+    color: black;
+}
+
+P.message {
+    font-family: "Courier", serif;
+    font-size: 11.0pt;
+    color: black;
+}

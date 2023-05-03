@@ -1,0 +1,93 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="css/Preface/renshaw1.css" type="text/css">
+    <title>Общая информация</title>
+    <script SRC="js/Preface/issue.js"></script>
+    <script SRC="js/Preface/copyright.js"></script>
+    <script SRC="js/Preface/footer.js"></script>
+</head>
+
+<body>
+
+<h2>Общая информация</h2>
+
+<div>
+    <table>
+        <tr>
+            <td>
+                <img src="images/Preface/warnsign.gif" width="150" height="131" alt="Не удается загрузить картинку">
+            </td>
+            <td>
+                <b>
+                    <p>ВАЖНО
+                </b>: прежде чем продолжить, прочтите раздел
+                <b>
+                    <a href="safety.htm">БЕЗОПАСНОСТЬ</a>
+                </b>.
+            </td>
+        </tr>
+    </table>
+</div>
+<p>Лазерная измерительная система Renishaw делает возможной полную калибровку станка, что позволяет измерять широкий диапазон геометрических и динамических характеристик станка.</p>
+<p>Система имеет модульную архитектуру, которая позволяет вам выбирать компоненты из ассортимента продукции Renishaw в соответствии с вашими конкретными потребностями в измерениях.</p>
+<h3>
+    <a>Основные компоненты</a>
+</h3>
+<p>Основными компонентами лазерной системы являются:</p>
+@foreach (var component in ViewBag.Components)
+{
+    <div>
+        <table>
+            <tr>
+                <td class="table1-column-img">
+                    <img src="@component.ImgDevice" width="276" height="195" alt="Не грузится картинка">
+                </td>
+                <td class="table1-column-description">
+                    <a href="@component.Link">@component.Description</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+}
+<h3>
+    <a>Параметры измерения</a>
+</h3>
+<p>Система предоставляет различные варианты измерения, в том числе:</p>
+
+@foreach (var option in ViewBag.Options)
+{
+    <div>
+        <table>
+            <tr>
+                <td class="table2-column-img">
+                    <p style="margin-bottom: auto">
+                        <img src="@option.ImgDevice" alt="Не грузится картинка">
+                    </p>
+                </td>
+                <td class="table2-column-description">
+                    <p style="margin-bottom: auto"><a href="@option.Link">@option.Description</a>
+                </td>
+                <td class="table2-column-definition">
+                    <p style="margin-bottom: auto">
+                        <img src="@option.ImgDefinition" width="107" height="87" alt="Не грузится картинка">
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+}
+<hr>
+
+<script>Footer ("Общая информация");</script>
+
+
+<p> </p>
+</body>
+</html>
