@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ML10.props" />
+</Project>

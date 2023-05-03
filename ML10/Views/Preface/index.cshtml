@@ -7,11 +7,11 @@
 <html lang="ru">
 
 <head>
-    <link rel="stylesheet" href="css/Preface/renshaw1.css" type="text/css">
+    <link rel="stylesheet" href="~/css/Preface/renshaw1.css" type="text/css">
     <title>Общая информация</title>
-    <script SRC="js/Preface/issue.js"></script>
-    <script SRC="js/Preface/copyright.js"></script>
-    <script SRC="js/Preface/footer.js"></script>
+    <script SRC="~/js/Preface/issue.js"></script>
+    <script SRC="~/js/Preface/copyright.js"></script>
+    <script SRC="~/js/Preface/footer.js"></script>
 </head>
 
 <body>
@@ -22,14 +22,14 @@
     <table>
         <tr>
             <td>
-                <img src="images/Preface/warnsign.gif" width="150" height="131" alt="Не удается загрузить картинку">
+                <img src="~/images/Preface/warnsign.gif" width="150" height="131" alt="Не удается загрузить картинку">
             </td>
             <td>
                 <b>
                     <p>ВАЖНО
                 </b>: прежде чем продолжить, прочтите раздел
                 <b>
-                    <a href="safety.htm">БЕЗОПАСНОСТЬ</a>
+                    <a asp-controller="Preface" asp-action="Safety">БЕЗОПАСНОСТЬ</a>
                 </b>.
             </td>
         </tr>

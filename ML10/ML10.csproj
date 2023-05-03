@@ -9,13 +9,19 @@
     <ItemGroup>
         <None Include="wwwroot\css\Preface\renshaw1.css"/>
         <None Include="wwwroot\css\Preface\spiral_small.gif"/>
+        <None Include="wwwroot\images\Preface\240volts.gif"/>
         <None Include="wwwroot\images\Preface\angular.gif"/>
         <None Include="wwwroot\images\Preface\angular2.gif"/>
+        <None Include="wwwroot\images\Preface\computer.gif"/>
         <None Include="wwwroot\images\Preface\dynamic.gif"/>
         <None Include="wwwroot\images\Preface\Dynamic2.gif"/>
         <None Include="wwwroot\images\Preface\Ec10.jpg"/>
+        <None Include="wwwroot\images\Preface\elec-warn.gif"/>
         <None Include="wwwroot\images\Preface\Flat2.gif"/>
         <None Include="wwwroot\images\Preface\flatness.gif"/>
+        <None Include="wwwroot\images\Preface\heavy.jpg"/>
+        <None Include="wwwroot\images\Preface\indxwarn.gif"/>
+        <None Include="wwwroot\images\Preface\laserwrn.gif"/>
         <None Include="wwwroot\images\Preface\linear.gif"/>
         <None Include="wwwroot\images\Preface\linear2.gif"/>
         <None Include="wwwroot\images\Preface\ML10LEFT.jpg"/>
@@ -23,6 +29,7 @@
         <None Include="wwwroot\images\Preface\rotary.gif"/>
         <None Include="wwwroot\images\Preface\square2.gif"/>
         <None Include="wwwroot\images\Preface\squareness.gif"/>
+        <None Include="wwwroot\images\Preface\stopbut.gif"/>
         <None Include="wwwroot\images\Preface\straight2.gif"/>
         <None Include="wwwroot\images\Preface\straightness.gif"/>
         <None Include="wwwroot\images\Preface\warnsign.gif"/>
